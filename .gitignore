@@ -1,0 +1,21 @@
+# Local datasets and generated predictions
+data/*.csv
+outputs/
+
+# Environments and notebook/editor caches
+.venv/
+venv/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+
+# Machine-local files and credentials
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
